@@ -1,0 +1,48 @@
+body {
+    width: 190px;
+    height: 50px;
+}
+
+#button {
+    float: left;
+    width: 62px;
+    height: 62px;
+}
+
+#button span {
+    position: absolute;
+    top: -999em;
+}
+
+#button:hover {
+    background-position: 1px 1px;
+}
+
+.coins {
+    background: url("../img/coins.jpg") no-repeat 0 0;
+    background-size: 60px 60px;
+}
+
+.oj {
+    background: url("../img/oj.jpg") no-repeat 0 0;
+    background-size: 60px 60px;
+}
+
+.chips {
+    background: url("../img/chips.jpg") no-repeat 0 0;
+    background-size: 60px 60px;
+}
+
+.chanchal1987 {
+	color: #C1BFC7;
+	width: 100%;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+.chanchal1987:hover {
+    text-shadow: 0 0 1px #c61a1a;
+}
